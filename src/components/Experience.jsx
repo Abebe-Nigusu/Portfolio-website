@@ -17,7 +17,7 @@ const Experience = () => {
     {
       id: 1,
       src: JavaSpringboot,
-      title: "Java + Springboot",
+      title: "Springboot",
       style: "shadow-orange-500",
     },
     {
@@ -44,24 +44,24 @@ const Experience = () => {
       title: "Python",
       style: "shadow-orange-500",
     },
-    {
-      id: 6,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
+    // {
+    //   id: 6,
+    //   src: html,
+    //   title: "HTML",
+    //   style: "shadow-orange-500",
+    // },
     {
       id: 7,
       src: MySQL,
       title: "MySQL",
       style: "shadow-orange-500",
     },
-    {
-      id: 8,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
+    // {
+    //   id: 8,
+    //   src: css,
+    //   title: "CSS",
+    //   style: "shadow-blue-500",
+    // },
 
     {
       id: 9,
@@ -69,18 +69,24 @@ const Experience = () => {
       title: "AWS EC2",
       style: "shadow-white",
     },
-    {
+    // {
+    //   id: 10,
+    //   src: tailwind,
+    //   title: "Tailwind",
+    //   style: "shadow-sky-400",
+    // },
+     {
       id: 10,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
-    },
+    }
+    // {
+    //   id: 9,
+    //   src: github,
+    //   title: "GitHub",
+    //   style: "shadow-gray-400",
+    // },
   ];
 
   return (

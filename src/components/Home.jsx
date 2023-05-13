@@ -11,18 +11,17 @@ const Home = () => {
     >
       <div className=" max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer & Senior MuleSoft Developer
-          </h2>
+          <h3 className="text-4xl sm:text-7xl font-bold text-white">
+            I'm a Full Stack Developer
+          </h3>
           <p className="text-white py-4 max-w-md">
-            I have 4 years of experience in Integration solutions using MuleSoft
-            Technology. I also have experience in Java Spring Boot, JavaScript(ES6,
-            Node.js), Python, HTML5, CSS, SQL | Frameworks/Libraries: Flask,
-            Jinja2, vanillaJS, SpringBoot, jQuery, ReactJS, ExpressJS, React
-            Native, Bootstrap, Material-UI | Databases: MySQL, MongoDB,
-            Mongoose, | Tools: AJAX, Spring Tool Suite, Rest API, JSON, Postman,
-            Socket.io, AWS(EC2), netlify, Azure DeveOPS, MySQL WorkBench, Git,
-            Github, Gitlap, Gitbash, Trello, Excalidraw, Agile, Scrum.
+            I have experience in Java Spring Boot,
+            JavaScript(ES6, Node.js), Python, HTML5, CSS, SQL |
+            Frameworks/Libraries: Flask, Jinja2, SpringBoot, jQuery,
+            ReactJS, ExpressJS, Bootstrap, Material-UI |
+            Databases: MySQL, MongoDB, Mongoose, | Tools: AJAX, Spring Tool
+            Suite, Rest API, JSON, Postman, Socket.io, AWS(EC2), netlify, Azure
+            DeveOPS, MySQL WorkBench, Git,Trello, Jira, Agile.
           </p>
           <div>
             <Link
