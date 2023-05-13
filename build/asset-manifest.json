@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c7276f2.css",
+    "main.js": "/static/js/main.6e0cfb2c.js",
+    "static/media/EtikitCinemaFull.png": "/static/media/EtikitCinemaFull.48a11e4f6fc8873bbae8.png",
+    "static/media/MyPicture.jpg": "/static/media/MyPicture.893c2c3357a78e6fa406.jpg",
+    "static/media/MySQL.png": "/static/media/MySQL.b4541004defe036fca58.png",
+    "static/media/WeatherAPI.png": "/static/media/WeatherAPI.1fe2ba1608c0b8103222.png",
+    "static/media/chatApp.png": "/static/media/chatApp.018405ca9fabfc70b928.png",
+    "static/media/Python.jpg": "/static/media/Python.028377f786c27a66b74e.jpg",
+    "static/media/mongo-express.jpg": "/static/media/mongo-express.1ee4bf941ae5474b560e.jpg",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/JavaSpringBoot.webp": "/static/media/JavaSpringBoot.4dfddfdd1788a253b7b7.webp",
+    "index.html": "/index.html",
+    "main.7c7276f2.css.map": "/static/css/main.7c7276f2.css.map",
+    "main.6e0cfb2c.js.map": "/static/js/main.6e0cfb2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c7276f2.css",
+    "static/js/main.6e0cfb2c.js"
+  ]
+}

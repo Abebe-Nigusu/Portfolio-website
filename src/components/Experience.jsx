@@ -6,10 +6,9 @@ import reactImage from "../assets/react.png";
 import MongoExpress from "../assets/mongo-express.jpg";
 import Python from "../assets/Python.jpg";
 import MySQL from "../assets/MySQL.png";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
+
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+
 import AWS from "../assets/AWS EC2.png"
 
 const Experience = () => {
