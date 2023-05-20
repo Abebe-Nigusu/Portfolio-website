@@ -1,7 +1,8 @@
-import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import React from 'react'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { HiOutlineMail } from 'react-icons/hi'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+// import Resume from "../assets/portfolio/AbebeLema.pdf";
 
 const SocialLinks = () => {
   const links = [
@@ -12,8 +13,8 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/abebe-nigusu-0b4b5a275/",
-      style: "rounded-tr-md",
+      href: 'https://www.linkedin.com/in/abebe-nigusu-0b4b5a275/',
+      style: 'rounded-tr-md',
     },
     {
       id: 2,
@@ -22,7 +23,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/Abebe-Nigusu",
+      href: 'https://github.com/Abebe-Nigusu',
     },
     {
       id: 3,
@@ -31,7 +32,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:abebe.developer2022@gmail.com",
+      href: 'mailto:abebe.developer2022@gmail.com',
     },
     {
       id: 4,
@@ -40,29 +41,30 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      style: "rounded-br-md",
-      href: "/resume.pdf",
+      style: 'rounded-br-md',
+      href: 'https://drive.google.com/file/d/1mmeyj-GRO478Xe8_Bhy2WjR_MYgqVnhT/view?usp=drive_link',
+      // src: {Resume},
       download: true,
     },
-  ];
+  ]
   return (
-    <div className="hidden flex-col top-[35%] left-0 fixed lg:flex">
+    <div className='hidden flex-col top-[35%] left-0 fixed lg:flex'>
       <ul>
         {links.map((link) => (
           <li
             key={link.id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-blue-800" +
-              " " +
+              'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-blue-800' +
+              ' ' +
               link.style
             }
           >
             <a
-              href={link.href ? link.href : "/"}
-              className="flex justify-between items-center w-full text-white"
+              href={link.href ? link.href : '/'}
+              className='flex justify-between items-center w-full text-white'
               download={link.download}
-              target="_blank"
-              rel="noreferrer"
+              target='_blank'
+              rel='noreferrer'
             >
               {link.child}
             </a>
@@ -70,7 +72,7 @@ const SocialLinks = () => {
         ))}
       </ul>
     </div>
-  );
-};
+  )
+}
 
-export default SocialLinks;
+export default SocialLinks
