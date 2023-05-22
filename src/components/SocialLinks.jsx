@@ -13,7 +13,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: 'https://www.linkedin.com/in/abebe-nigusu-0b4b5a275/',
+      href: 'https://www.linkedin.com/in/abebe-n-lema/',
       style: 'rounded-tr-md',
     },
     {
